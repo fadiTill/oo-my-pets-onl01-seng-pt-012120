@@ -38,7 +38,7 @@ def self.reset_all
 end
 
 def cat
-  
+  cat
 # def say_species
 #   @say_species
 # end
