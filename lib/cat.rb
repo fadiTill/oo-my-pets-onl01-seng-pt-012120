@@ -16,13 +16,8 @@ class Cat
 #   @mood = mood
 # end
 
-  def mood
-     "nervous"
-end
+  
 
-def mood
-  @mood
-end
 
   # code goes here
 end
