@@ -74,7 +74,7 @@ end
  def sell_pets
    pets_to_sell = self.cats+self.dogs
  end
-end 
+end
 # def say_species
 #   @say_species
 # end
