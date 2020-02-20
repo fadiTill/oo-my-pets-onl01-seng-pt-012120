@@ -6,5 +6,6 @@ class Dog
    @name = name
    @owner = owner
    @mood = mood
+ end 
 
 end
