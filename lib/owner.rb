@@ -56,6 +56,11 @@ def buy_cat(cat_name)
   @pets[:cats]=Cat.new(cat_name,self)
 end
 
+def buy_dog(dog_name)
+  @pets[:dog]=Dog.new(dog_name,self)
+end
+
+
 end
 # def say_species
 #   @say_species
