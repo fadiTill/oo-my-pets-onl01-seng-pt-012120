@@ -38,7 +38,9 @@ def self.reset_all
 end
 
 def cat
-  cat
+  Cat.all.select do |cat| 
+     cat.owner == self
+end
 # def say_species
 #   @say_species
 # end
