@@ -36,6 +36,9 @@ end
 def self.reset_all
   @@all.clear
 end
+
+def cat
+  
 # def say_species
 #   @say_species
 # end
