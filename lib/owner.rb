@@ -41,6 +41,7 @@ def cat
   Cat.all.select do |cat|
      cat.owner == self
 end
+end
 # def say_species
 #   @say_species
 # end
