@@ -16,7 +16,7 @@ class Cat
 #   @mood = mood
 # end
 
-  
+
 
 
   # code goes here
