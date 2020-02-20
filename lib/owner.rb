@@ -41,7 +41,7 @@ def cats
   Cat.all.select do |cat|
      cat.owner == self
 end
-end 
+end
 
 
 def dogs
@@ -51,7 +51,7 @@ end
 end
 
 def buy_cat(cat_name)
-end 
+end
 # def say_species
 #   @say_species
 # end
