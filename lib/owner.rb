@@ -71,7 +71,9 @@ end
      cat.mood = "happy"
  end
 end
-end 
+ def sell_pets
+ end
+end
 # def say_species
 #   @say_species
 # end
