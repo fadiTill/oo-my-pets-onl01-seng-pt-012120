@@ -3,7 +3,7 @@ require 'pry'
 class Owner
 
   @@all = []
- attr_accessor pets
+ attr_accessor :pets
 
 def initialize (name,species = "human")
    @name = name
