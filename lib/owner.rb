@@ -3,11 +3,13 @@ require 'pry'
 class Owner
 
   @@all = []
+ attr_accessor pets
 
 def initialize (name,species = "human")
    @name = name
    @species = species
    @@all<<self
+   @pets = {:dogs =>[],:cats=>[]}
 
   end
 
@@ -51,6 +53,7 @@ end
 end
 
 def buy_cat(cat_name)
+
 end
 # def say_species
 #   @say_species
