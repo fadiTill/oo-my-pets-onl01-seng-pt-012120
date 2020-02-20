@@ -59,12 +59,16 @@ end
 def buy_dog(dog_name)
   @pets[:dog]=Dog.new(dog_name,self)
 end
+
  def walk_dogs
    dogs.each  do |dog|
      dog.mood = "happy"
  end
- end 
-
+ end
+ def feed_cats
+   cats.each  do |cat|
+     cat.mood = "happy"
+ end
 end
 # def say_species
 #   @say_species
