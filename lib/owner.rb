@@ -59,7 +59,9 @@ end
 def buy_dog(dog_name)
   @pets[:dog]=Dog.new(dog_name,self)
 end
-
+ def walk_dogs
+   dogs.each
+ end
 
 end
 # def say_species
