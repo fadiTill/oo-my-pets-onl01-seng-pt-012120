@@ -74,7 +74,8 @@ end
  def sell_pets
    pets_to_sell = self.cats+self.dogs
    pets_to_sell.each do |pets|
-     pets.mood = "nervous"
+   pets.mood = "nervous"
+   pets.owner = nil
    end 
 
  end
